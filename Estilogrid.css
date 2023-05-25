@@ -1,10 +1,17 @@
 .contenedor {
     display: grid;
-    grid-template-columns: 50px 50px 50px;
-    background-color: blueviolet;
-    grid-template-rows: 100%;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: 50px auto 50px;
+    
 }
 
-#color{
-    background-color: blueviolet;
+#izq {
+    background-color: blue;
 }
+
+#der {background-color: blue;
+    order: 3;
+}
+
+img {
+    width:200px;}
