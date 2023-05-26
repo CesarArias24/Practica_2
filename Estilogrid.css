@@ -1,17 +1,41 @@
-.contenedor {
+*
+{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
     display: grid;
-    grid-template-columns: 50px auto 50px;
-    grid-template-rows: 50px auto 50px;
-    
+    grid-template-columns: auto auto auto;
+} 
+#izq 
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 3, 136);
 }
-
-#izq {
-    background-color: blue;
+#cen
+{
+    align-items: center;
+    display: grid;
+    height: 100%;
+    width:100%;
+    justify-content: center;
+    background-color: yellow;
 }
+#der
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 3, 136);
 
-#der {background-color: blue;
-    order: 3;
 }
-
-img {
-    width:200px;}
+img
+{
+    border-radius: 35px;
+    width: 200px;
+    height: 150px;
+}
